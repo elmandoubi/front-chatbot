@@ -24,6 +24,7 @@ which will generate the ***dist/*** folder that contains a compiled version of y
 
 
 # Fake Data
+in a new Terminal window
 ```bash
-http-server --cors .
+cd fakeData && http-server --cors .
 ```
