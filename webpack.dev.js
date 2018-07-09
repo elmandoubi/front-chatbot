@@ -5,7 +5,7 @@ const webpack = require('webpack');
 const commonConf = require('./webpack.common').config;
 
 const TARGET = process.env.npm_lifecycle_event;
-const pageTitle = `My App ${  require("./package.json").version}`;
+const pageTitle = `Front ChatBot ${  require("./package.json").version}`;
 
 if (TARGET === 'start') {
     console.log('Compiling front end code for dev ');

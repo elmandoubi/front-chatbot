@@ -14,17 +14,17 @@ const fakeData = [
 ]
 export function getItems() {
 
-    return {type: 'ITEMS_LOADED', items: fakeData}
+    //return {type: 'ITEMS_LOADED', items: fakeData}
 
 
-    /*
+    
     return (dispatch) => {
-        request.get('/stuff')
+        request.get('http://192.168.1.178:8080/data.json')
             .then((response) => {
                 dispatch({type: 'ITEMS_LOADED', items: response.data})
             })
     }
-    //*/
+    
 
 }
 

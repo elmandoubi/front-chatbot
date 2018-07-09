@@ -21,3 +21,9 @@ npm start
 npm run build
 ```
 which will generate the ***dist/*** folder that contains a compiled version of your app.
+
+
+# Fake Data
+```bash
+http-server --cors .
+```
