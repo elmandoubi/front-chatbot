@@ -4,7 +4,7 @@ To start a new project clone this repo
 
 ```bash
 git clone https://github.com/elmandoubi/front-chatbot.git
-cd your-app-name
+cd front-chatbot
 rm -rf .git/
 git init
 npm install
