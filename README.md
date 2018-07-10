@@ -3,7 +3,7 @@
 To start a new project clone this repo
 
 ```bash
-git clone git@github.com:bmarwane/react-redux-base-app.git your-app-name
+git clone https://github.com/elmandoubi/front-chatbot.git
 cd your-app-name
 rm -rf .git/
 git init
